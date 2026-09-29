@@ -1,0 +1,24 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Env / secrets
+.env
+.env.*
+
+# OS
+.DS_Store
+
+# Raw data (large files, see modeltrainer/data/README.md for sources)
+modeltrainer/data/*.csv
+modeltrainer/data/*.json
+modeltrainer/data/*.txt
+
+# Trained model artifacts
+*.joblib
